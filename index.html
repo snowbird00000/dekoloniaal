@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dekoloniaal – trainingserie ‘Dekolonialiteit belichamen’ door Chaima Abarkan & Hooman ‘Noura’ Nassimi." />
+  <title>Dekoloniaal</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #000000;
+      --muted: #000000;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color: var(--fg); background: var(--bg);
+      display: flex; min-height: 100svh; flex-direction: column;
+    }
+    header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--border); }
+    .container { max-width: 960px; margin: 0 auto; padding: 12px 16px; }
+    .brand { font-weight: 700; letter-spacing: .2px; }
+    nav { display: flex; gap: 8px; flex-wrap: wrap; }
+    nav a { color: var(--fg); }
+    nav a[aria-current="page"], nav a:focus-visible { outline: none; background: var(--border); }
+    main { flex: 1; }
+    section { display: none; padding: 24px 16px; }
+    section.active { display: block; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin: 18px 0 8px; font-size: 20px; }
+    p { margin: 0 0 12px; color: var(--muted); }
+    .grid { display: grid; gap: 12px; }
+    @media (min-width: 720px) { .grid.cols-2 { grid-template-columns: repeat(2, 1fr); } }
+    .card { border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+    footer { border-top: 1px solid var(--border); color: var(--muted); }
+    a { color: var(--accent); }
+      .avatar { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); background: #f3f4f6; display: block; margin: 0 auto; }
+    figure.person { text-align: center; margin: 0 0 12px 0; }
+      .logo { max-height: 60px; width: auto; display: block; margin: 0 auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container" style="display:flex; align-items:center; justify-content:space-between; gap:12px;">
+      <div class="brand">Dekoloniaal</div>
+      <nav aria-label="Hoofdmenu" role="navigation">
+        <a href="#home" data-route>Home</a>
+        <a href="#team" data-route>Over ons</a>
+        <a href="#work" data-route>Ons werk</a>
+        <a href="#contact" data-route>Contact</a>
+        <a href="#legal" data-route>Juridisch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="container" role="main">
+    <section id="home" class="active" aria-labelledby="home-title">
+      <h1 id="home-title">Home</h1>
+      <p>Welkom bij het trainingsprogramma “Dekolonialiteit belichamen” van Noura en Chaima Abarkan.</p>
+      <p>Met dit programma nodigen we je uit om dekolonialiteit niet alleen te begrijpen, maar om het te leven — in je werk, in je keuzes en in je relaties.</p>
+      <p>Dekolonisatie is geen theorie of intellectuele oefening. Het is een praktijk. Het betekent erkennen hoe witte suprematie en koloniale structuren diep geworteld zijn — niet alleen in de systemen om ons heen, maar ook in hoe we denken, handelen en met elkaar omgaan. In dit trainingsprogramma maken we die structuren zichtbaar, en onderzoeken we hoe we ze kunnen ontmantelen.</p>
+      <p>Via gezamenlijke reflectie, gesprekken, een multi‑mediale aanpak en concrete oefeningen leer je hoe je koloniale conditioneringen kunt herkennen, bevragen en loslaten.</p>
+      <p>Ons werk richt zich op het bouwen aan rechtvaardige praktijken die gelijkwaardigheid niet alleen benoemen, maar belichamen. Of je nu actief bent in de cultuursector, bij een maatschappelijke organisatie, of je je eigen positie wilt bevragen — je bent welkom om mee te doen. Niet als toeschouwer, maar als deelnemer in het proces van collectieve bevrijding.</p>
+    </section>
+
+    <section id="team" aria-labelledby="team-title">
+      <h1 id="team-title">Over ons</h1>
+      <div class="grid cols-2">
+        <div class="card">
+          <figure class="person">
+            <!-- Vervang de src hieronder door het pad/URL van jouw JPEG -->
+            <img class="avatar" src="chaima.jpg" alt="Portret van Chaima Abarkan" />
+            <figcaption class="muted" style="margin-top:6px;"> </figcaption>
+          </figure>
+          <strong>Chaima Abarkan</strong>
+          <p>Chaima is een docent, gemeenschapsorganisator en activist. Ze weet een divers publiek te betrekken, waaronder veel terugkerende witte mensen. Dit bereikt ze door haar aanpak flexibel aan te passen aan de educatieve behoeften van verschillende achtergronden, vooral in Rotterdam en aan de Erasmus Universiteit.</p>
+          <p>Als medeoprichter van het Decolonial Learning Network wil Chaima academische kennis over dekolonisatie toegankelijk maken voor een breder publiek. Haar aanpak is zowel positief als ook praktisch, waardoor complexe ideeën over dekolonisatie begrijpelijk en interessant worden.</p>
+          <p>Chaima heeft een masterdiploma met de scriptie "Activist in Existence: How Students of Color are Decolonizing Dutch Universities" en is bezig om een PhD aan te gaan in dekolonisatie, wat haar toewijding verder onderstreept.</p>
+          <p>Daarnaast werkt ze met Stichting Rotterdam Kookt, een non‑profitorganisatie die samenwerkt met de gemeente en mensen, vooral vrouwen van kleur met werkbarrières, opleidt in culinaire vaardigheden voor een loopbaan in de horeca.</p>
+        </div>
+        <div class="card">
+          <figure class="person">
+            <!-- Vervang de src hieronder door het pad/URL van jouw JPEG -->
+            <img class="avatar" src="noura.jpg" alt="Portret van Hooman ‘Noura’ Nassimi" />
+            <figcaption class="muted" style="margin-top:6px;"> </figcaption>
+          </figure>
+          <strong>Hooman “Noura” Nassimi</strong>
+          <p>Noura is een dekoloniaal educator met bijna tien jaar ervaring op het snijvlak van cultuur, sociale verandering en rechtvaardigheid. Ze startte het project <em>New Faces</em> en verbond daarmee meer dan 1.400 mensen die gedwongen zijn gemigreerd aan ruim 24 toonaangevende culturele organisaties (o.a. Le Guess Who?, Oerol, NFF en Lowlands).</p>
+          <p>Voor structurele verandering ontwikkelde Noura de training <em>Dekolonialiteit belichamen</em> en werkte zij meerjarig samen met festivals zoals Oerol en Motel Mozaïque, waar ze ook interne cultuur en veranderprocessen begeleidde.</p>
+          <p>Noura hanteert een holistische benadering: naast kritische analyse staan heling en herstel centraal. Ze volgt een masteropleiding tot psychotherapeut en werkt met cliënten uit diverse achtergronden, waarbij ze zorg, rechtvaardigheid en gemeenschapsherstel verbindt.</p>
+          <p>Daarnaast is Noura verbonden aan Systemic Justice. Ze ontwikkelt dekoloniale trainingen voor juristen en benut het recht als instrument voor activisme en structurele transformatie. Zo slaat ze bruggen tussen cultuur, heling en systeemverandering.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" aria-labelledby="work-title">
+      <h1 id="work-title">Trainingserie Dekolonialiteit belichamen</h1>
+      <div class="grid cols-2" style="margin-bottom:12px;">
+        <div class="card" style="height:80px; display:flex; align-items:center; justify-content:center;"><img class="logo" src="momo.png" alt="Logo Momo" /></div>
+        <div class="card" style="height:80px; display:flex; align-items:center; justify-content:center;"><img class="logo" src="oerol.png" alt="Logo Oerol" /></div>
+      </div>
+      <p>Het programma <em>“Dekolonialiteit belichamen”</em> is ontwikkeld voor cultuurwerkers. Het doel is om de sociale conditionering van witte suprematie te doorbreken en interne en systemische onderdrukking te bestrijden. Door kritische zelfreflectie, intersectioneel bewustzijn en praktische belangenbehartigingsvaardigheden leren deelnemers actief bij te dragen aan dekolonisatie en sociale rechtvaardigheid.</p>
+      <p>De training biedt o.a.:</p>
+      <ul>
+        <li>Historische context van kolonialisme en witte suprematie.</li>
+        <li>Inzicht in systemische structuren van onderdrukking.</li>
+        <li>Intersectioneel bewustzijn.</li>
+        <li>Analyse van media, cultuur en taal.</li>
+        <li>Bondgenootschap en pleitbezorging.</li>
+        <li>Holistische praktijken om denken, voelen en handelen te dekoloniseren.</li>
+        <li>Praktische strategieën voor antiracistisch werk in de culturele sector.</li>
+      </ul>
+      <h2 id="leerfilosofie">Leerfilosofie</h2>
+      <p>Deze training is gebouwd op een leerfilosofie die vertrekt vanuit verbondenheid, bewuste transformatie en collectieve groei. We geloven dat leren een levend proces is: het gebeurt in relatie tot jezelf, tot anderen en tot de wereld om je heen.</p>
+      <p>Wat je leert in dit programma is niet alleen cognitief, maar raakt ook aan hoe je voelt, handelt en leeft. Kennis wordt belichaamd — je leert met hoofd, hart en handen. Daarom combineren we analyse met reflectie, en theorie met praktische toepassing.</p>
+      <p>Onze pedagogiek is:</p>
+      <ul>
+        <li><strong>Relationeel en verbindend:</strong> we leren samen. Door het delen van ervaringen, het voeren van eerlijke gesprekken en het luisteren naar meerdere perspectieven ontstaat collectief begrip en solidariteit.</li>
+        <li><strong>Holistisch en transformerend:</strong> we werken niet alleen aan begrip, maar aan verandering. Deelnemers ontwikkelen nieuwe manieren van kijken, voelen en handelen die in dienst staan van rechtvaardigheid en bevrijding.</li>
+        <li><strong>Bewust uitdagend:</strong> de training nodigt je uit om verder te kijken dan wat je al kent. Spanningen en vragen zijn geen obstakels, maar kansen voor verdieping en groei.</li>
+        <li><strong>Verantwoordelijk en betrokken:</strong> je leert om je positie te herkennen, je invloed serieus te nemen en keuzes te maken die bijdragen aan een rechtvaardige wereld — zowel binnen als buiten je werkcontext.</li>
+        <li><strong>Bewegingsgericht:</strong> alles wat we doen is gericht op verandering. Deze training bouwt mee aan een bredere beweging van dekolonisatie en sociale rechtvaardigheid, geworteld in gemeenschap en actie.</li>
+      </ul>
+      <p>Deze leeromgeving biedt ruimte om oprechte nieuwsgierigheid te combineren met moedige stappen. Samen creëren we een plek waar anders denken mogelijk wordt, en waar je actief bijdraagt aan het opbouwen van eerlijke, warme en inclusieve praktijken.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-title">
+      <h1 id="contact-title">Contact</h1>
+      <p><a href="mailto:noura.flower@proton.me">Stuur Noura een mail hier</a></p>
+    </section>
+
+    <section id="legal" aria-labelledby="legal-title">
+      <h1 id="legal-title">Juridisch</h1>
+      <p><strong>Auteursrecht:</strong> Copyright 2025. Hooman “Noura” Nassimi. Alle rechten voorbehouden.</p>
+    </section>
+  </main>
+
+  <footer class="container" role="contentinfo">
+    <p>© <span id="year"></span> Chaima Abarkan & Hooman “Noura” Nassimi · <a href="#legal" data-route>Juridisch</a></p>
+  </footer>
+
+  <script>
+    (function(){
+      var links = document.querySelectorAll('[data-route]');
+      var sections = document.querySelectorAll('main section');
+
+      function setActive(hash){
+        var target = (hash || '#home').replace('#','');
+        if (!document.getElementById(target)) target = 'home';
+        for (var i=0;i<sections.length;i++){
+          var s = sections[i];
+          s.classList.toggle('active', s.id === target);
+        }
+        for (var j=0;j<links.length;j++){
+          var a = links[j];
+          var isActive = a.getAttribute('href') === '#' + target;
+          if (isActive) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');
+        }
+        var active = document.getElementById(target);
+        if (active) {
+          var h = active.querySelector('h1');
+          if (h) { h.setAttribute('tabindex','-1'); h.focus(); }
+        }
+      }
+
+      window.addEventListener('hashchange', function(){ setActive(location.hash); });
+      setActive(location.hash);
+      document.getElementById('year').textContent = new Date().getFullYear();
+    })();
+  </script>
+</body>
+</html>
